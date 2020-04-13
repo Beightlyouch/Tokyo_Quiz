@@ -22,7 +22,8 @@ public class QuizMaker {
     //答えを決める
     public void create_Answer_City() {
         Random rand = new Random();
-        int answer = rand.nextInt(19);
+        //53って書きたくないけど
+        int answer = rand.nextInt(53);
         answer_city = answer;
     }
 
@@ -32,7 +33,7 @@ public class QuizMaker {
 
         while(wrongs.size() < 3){
             Random rand = new Random();
-            int randomNumber = rand.nextInt(19);
+            int randomNumber = rand.nextInt(53);
             if(goodWrongs(wrongs, answer_city, randomNumber)){
                 wrongs.add(randomNumber);
             }
