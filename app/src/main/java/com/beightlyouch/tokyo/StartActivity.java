@@ -7,8 +7,6 @@ import android.widget.Button;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.beightlyouch.yamaguchi.R;
-
 
 public class StartActivity extends AppCompatActivity {
 
